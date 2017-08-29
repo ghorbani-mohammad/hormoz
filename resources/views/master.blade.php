@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style type="text/css">
       @font-face {
           font-family: iransans;
@@ -13,13 +14,16 @@
       }
       body{
         font-family: iransans;
+
       }
     </style>
   </head>
 
   <body>
+    @include('contactHeader')
     <div class="container">
-      <h1>سلام</h1>
+      <div class="row align-items-start">
+        
     </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
