@@ -22,4 +22,7 @@ Route::get('/', function(){
 Route::get('لیست-قیمت-سینی-کابل',function(){
 	return view('feeList');
 });
+Route::get('تماس-با-ما',function(){
+	return view('contactus');
+});
 

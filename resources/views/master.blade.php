@@ -22,8 +22,9 @@
   <body>
     @include('contactHeader')
     @include('nav')
-    <div class="container">
-      <div class="row align-items-start">
+    <div class="container" style="direction: rtl;">
+      
+      @yield('container')
         
     </div>
 

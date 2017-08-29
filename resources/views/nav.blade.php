@@ -23,9 +23,9 @@
     <a class="nav-link" href="#">درباره ما</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">تماس با ما</a>
+    <a class="nav-link" href="تماس-با-ما">تماس با ما</a>
   </li>
   <li class="nav-item mr-auto">
-    <a class="nav-link display-4" href="لیست-قیمت-سینی-کابل" style="color:#ecf0f1;">لیست قیمت</a>
+    <a class="nav-link display-4" href="لیست-قیمت-سینی-کابل" style="color:#ecf0f1; font-size: 2rem;">لیست قیمت</a>
   </li>
 </ul>
