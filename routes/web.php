@@ -16,7 +16,10 @@
 // });
 
 
-Route::get('/', function () {
+Route::get('/', function(){
     return view('index');
+});
+Route::get('لیست-قیمت-سینی-کابل',function(){
+	return view('feeList');
 });
 
