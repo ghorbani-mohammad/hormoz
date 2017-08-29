@@ -25,4 +25,7 @@ Route::get('لیست-قیمت-سینی-کابل',function(){
 Route::get('تماس-با-ما',function(){
 	return view('contactus');
 });
+Route::get('درباره-ما',function(){
+	return view('aboutUs');
+});
 

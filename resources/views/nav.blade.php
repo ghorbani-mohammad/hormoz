@@ -20,7 +20,7 @@
     </div>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">درباره ما</a>
+    <a class="nav-link" href="درباره-ما">درباره ما</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="تماس-با-ما">تماس با ما</a>
