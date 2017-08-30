@@ -6,6 +6,9 @@
 
 <ul class="nav d-flex justify-content-start align-items-center" style="direction: rtl;background-color: #1abc9c; padding-left: 40px;">
   <li class="nav-item">
+    <a class="nav-link active" href="/">کبیر</a>
+  </li>
+  <li class="nav-item">
     <a class="nav-link active" href="">وبلاگ</a>
   </li>
   <li class="nav-item dropdown">

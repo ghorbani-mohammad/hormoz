@@ -10,21 +10,21 @@
       <img class="d-block w-100" src="images/11.jpg" alt="Petrolium">
       <div class="carousel-caption d-none d-md-block">
   	    <!-- <h3>تامین نیازهای صنعت پتروشیمی</h3> -->
-  	    <p><span style="background-color: #5d5a5a;padding: 5px;">شکوفایی صنعت پتروشیمی، شوفایی کشور</span></p>
+  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">شکوفایی صنعت پتروشیمی، شوفایی کشور</span></p>
   	  </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/12.jpg" alt="Mesh">
       <div class="carousel-caption d-none d-md-block">
         <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
-        <p><span style="background-color: #5d5a5a;padding: 5px;">مش کابل مناسب برای دیتاسنترها</span></p>
+        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">مش کابل مناسب برای دیتاسنترها</span></p>
       </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/13.jpg" alt="Pipe">
       <div class="carousel-caption d-none d-md-block">
         <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
-        <p><span style="background-color: #5d5a5a;padding: 5px;">کابل کشی منظم با استفاده از لوله فولادی، مناسب برای مراکز اداری و سازمان ها</span></p>
+        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">کابل کشی منظم با استفاده از لوله فولادی، مناسب برای مراکز اداری و سازمان ها</span></p>
       </div>
     </div>
   </div>
@@ -42,11 +42,6 @@
 
 <style type="text/css">
   img{
-    /*width: 100%;*/
     height: 400px;
   }
-/*  .container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
-  }*/
 </style>
