@@ -22,6 +22,11 @@
   <body>
     @include('contactHeader')
     @include('nav')
+    <div class="container-fluid" style=" padding: 0px;">
+      
+      @yield('container-fluid-carousel')
+
+    </div>
     <div class="container" style="direction: rtl;">
       
       @yield('container')
