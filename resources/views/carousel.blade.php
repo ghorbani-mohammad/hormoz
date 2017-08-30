@@ -3,7 +3,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="3"></li> -->
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -25,6 +25,13 @@
       <div class="carousel-caption d-none d-md-block">
         <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">کابل کشی منظم با استفاده از لوله فولادی، مناسب برای مراکز اداری و سازمان ها</span></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/5.jpg" alt="Pipe">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
+        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">سینی اسنیک با قابلیت نصب آسان برای نظم دهی به کابل ها با حساسیت کمتر</span></p>
       </div>
     </div>
   </div>

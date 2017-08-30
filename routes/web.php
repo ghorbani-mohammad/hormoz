@@ -28,4 +28,9 @@ Route::get('تماس-با-ما',function(){
 Route::get('درباره-ما',function(){
 	return view('aboutUs');
 });
-
+Route::get('سینی-کابل',function(){
+	return view('traycable');
+});
+Route::get('نردبان-کابل',function(){
+	return view('laddercable');
+});

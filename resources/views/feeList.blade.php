@@ -14,7 +14,7 @@
 	<strong>{{persianumber("1396/06/07")}}</strong>
 	به روز رسانی شده است.</span></div>
 	<div class="alert alert-primary" role="alert"><span style="font-size: 0.9rem;">برای بدست آوردن قیمت ها در هر زمان میتوانید از  
-	<a href="https://telegram.me/traycablebot" class="alert-link">ربات تلگرامی</a>
+	<a href="https://telegram.me/traycablebot" class="alert-link">ربات تلگرامی<i class="fa fa-telegram" aria-hidden="true"></i></a>
 	ما نیز استفاده فرمایید</span></div>
 	<span style="color: #2ecc71;">سینی کابل</span>
 	<table class="table table-hover table-sm table-bordered" >

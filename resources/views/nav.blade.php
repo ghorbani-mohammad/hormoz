@@ -14,8 +14,8 @@
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">محصولات </a>
     <div class="dropdown-menu text-right" style="direction: rtl;right: 0px;">
-      <a class="dropdown-item" href="#">سینی کابل</a>
-      <a class="dropdown-item" href="#">نردبان کابل</a>
+      <a class="dropdown-item" href="سینی-کابل">سینی کابل</a>
+      <a class="dropdown-item" href="نردبان-کابل">نردبان کابل</a>
       <a class="dropdown-item" href="#">لوله فولادی</a>
       <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#">سینی کابل مش</a>
