@@ -2,6 +2,9 @@
 
 @section('container')
 
+<div class="alert alert-primary text-center" style="margin-top: 15px;">
+	برقرای ارتباط از طریق <a href="https://telegram.me/traycablebot" class="alert-link">تلگرام<i class="fa fa-telegram" aria-hidden="true"></i></a>
+</div>
 <div class="row" style="margin-top: 15px;">
 	<div class="col-6">
 		<span style="color: #2ecc71;">دفتر فروش:</span>
