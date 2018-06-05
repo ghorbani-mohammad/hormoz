@@ -1,12 +1,17 @@
 @extends('master')
 
+
+@section('head')
+<meta name="description" content="نردبان کابل معمولا در محیط های بسته استفاده می شود">
+@endsection
+
 @section('container')
 <div class="row" style="margin-top: 15px;">
-	<div class="col-9">
+	<div class="col-sm-12 col-md-9 order-2 mt-3 order-md-1 mt-md-0">
 		<h4>نردبان کابل</h4>
 		<p>مزییتی که نردبان کابل نسبت به سینی کابل دارد این است که سامان دهی کابل ها در آن ها راحت تر و محکمتر است. به طور معمول در مسیر های عمودی از نردبان کابل استفاده می شود. البته انتخاب نردبان کابل یا سینی کابل وابسته به شرایط محیط است.</p>
 	</div>
-	<div class="col-3">
+	<div class="col-sm-12 col-md-3 order-1 order-md-2">
 		<img class="img-fluid" src="images/6.jpg">
 	</div>
 </div>

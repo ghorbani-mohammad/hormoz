@@ -1,14 +1,19 @@
 @extends('master')
 
+
+@section('head')
+<meta name="description" content="سینی کابل محصولی است که از آن برای محافظت از کابل های انتقال جریان و همچنین نظم دهی به آن ها استفاده می شود">
+@endsection
+
 @section('container')
 <div class="row" style="margin-top: 15px;">
-	<div class="col-9">
+	<div class="col-sm-12 col-md-9 order-2 mt-3 order-md-1 mt-md-0">
 		<h4>سینی کابل</h4>
 		<p style="font-size: .9rem;">
 			از سینی کابل برای نظم دهی به کابل ها استفاده می شود. در تصویر مقابل یک سینی کابل را مشاهده می کنید که در آن تعدادی کابل قرار گرفته است. سینی کابل علاوه بر نظم دهی برای محافظت از کابل ها نیز استفاده می شود. طبق استانداردهای جدید ساختمانی استفاده از سینی کابل برای کابل ها الزامی است. 
 		</p>
 	</div>
-	<div class="col-3">
+	<div class="col-sm-12 col-md-3 order-1 order-md-2 px-2">
 		<img class="img-fluid" src="images/4.jpg">
 	</div>
 </div>
@@ -18,7 +23,7 @@
 		انواع سینی کابل
 	</p>
 
-	<table class="table table-bordered table-hover">
+	<table class="table table-sm table-bordered table-hover">
 		<tr>
 			<td>سینی کابل سرد (فابریک)</td>
 			<td>سینی کابل گرم (آبکاری شده)</td>

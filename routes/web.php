@@ -1,5 +1,10 @@
 <?php
 
+use App\Fee;
+use \Morilog\Jalali\jDate;
+use \Morilog\Jalali\jDateTime;
+use Carbon\Carbon;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,17 +15,32 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
 Route::get('/', function(){
     return view('index');
 });
-Route::get('لیست-قیمت-سینی-کابل',function(){
-	return view('feeList');
+
+// Route::get('{section}/{a}',function($section){
+// 	return $section;
+// });
+
+
+
+Route::post('fee/bot.php','FeeController@control');
+
+
+
+
+
+
+Route::get('لیست-قیمت',function(){
+	$feeSheet=Fee::firstOrCreate(['id'=>1]);
+	$value=$feeSheet->value;
+	$lastUpdated=$feeSheet->updated_at;
+	$lastUpdated = new Carbon($lastUpdated);
+	$lastUpdatedDate=$lastUpdated->toDateString();
+	$lastUpdatedDate = jDateTime::strftime('Y/m/d', $lastUpdatedDate);
+	$lastUpdatedDate = jDateTime::convertNumbers($lastUpdatedDate);
+	return view('feeList',compact('lastUpdatedDate','value'));
 });
 Route::get('تماس-با-ما',function(){
 	return view('contactus');
@@ -33,4 +53,16 @@ Route::get('سینی-کابل',function(){
 });
 Route::get('نردبان-کابل',function(){
 	return view('laddercable');
+});
+Route::get('بلاگ',function(){
+	return view('blog');
+});
+Route::get('imgs',function(){
+
+	$files = File::allFiles("images");
+	dd($files);
+	// foreach ($files as $file)
+	// {
+	//     echo (string)$file, "\n";
+	// }
 });

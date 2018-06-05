@@ -2,33 +2,38 @@
   a{
     color:white;
   }
+  .navbar-light .navbar-nav .nav-link{
+      color: white;
+    }
+  .dropdown-toggle::after{
+    margin-right: 0.3rem;
+  }
 </style>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#1abc9c; color: white;">
+    <a class="navbar-brand ml-4" href="لیست-قیمت" style="color: white;">لیست قیمت</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<ul class="nav d-flex justify-content-start align-items-center" style="direction: rtl;background-color: #1abc9c; padding-left: 40px;">
-  <li class="nav-item">
-    <a class="nav-link active" href="/">کبیر</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="">وبلاگ</a>
-  </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">محصولات </a>
-    <div class="dropdown-menu text-right" style="direction: rtl;right: 0px;">
-      <a class="dropdown-item" href="سینی-کابل">سینی کابل</a>
-      <a class="dropdown-item" href="نردبان-کابل">نردبان کابل</a>
-      <a class="dropdown-item" href="#">لوله فولادی</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">سینی کابل مش</a>
-      <a class="dropdown-item" href="#">سینی کابل اسنیک</a>
+    <div class="collapse navbar-collapse " style="direction: rtl;" id="navbarSupportedContent">
+    <div class="navbar-nav mr-4">
+          <a class="nav-item nav-link" href="/">کبیر<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="بلاگ">وبلاگ</a>
+          <div class="dropdown">
+            <a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">محصولات</a>
+            <div class="dropdown-menu text-right" style="right: 0px;" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="سینی-کابل">سینی کابل</a>
+              <a class="dropdown-item" href="نردبان-کابل">نردبان کابل</a>
+              <a class="dropdown-item" href="">لوله فولادی</a>
+              <a class="dropdown-item" href="">لوله فلکسی</a>
+              <!-- <div class="dropdown-divider"></div> -->
+              <!-- <a class="dropdown-item" href="">سینی کابل مش</a> -->
+              <!-- <a class="dropdown-item" href="">سینی کابل اسنیک</a> -->
+            </div>
+          </div>
+
+          <a class="nav-item nav-link" href="درباره-ما">درباره ما</a>
+          <a class="nav-item nav-link" href="تماس-با-ما">تماس با ما</a>
+        </div>
     </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="درباره-ما">درباره ما</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="تماس-با-ما">تماس با ما</a>
-  </li>
-  <li class="nav-item mr-auto">
-    <a class="nav-link display-4" href="لیست-قیمت-سینی-کابل" style="color:#ecf0f1; font-size: 2rem;">لیست قیمت</a>
-  </li>
-</ul>
+  </nav>

@@ -6,7 +6,14 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+  <div class="carousel-item active">
+      <img class="d-block w-100" src="images/600.JPG" alt="Trumph 600">
+      <div class="carousel-caption d-none d-md-block">
+  	    <!-- <h3>تامین نیازهای صنعت پتروشیمی</h3> -->
+  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">خدمات پانچ و لیزر سی ان سی</span></p>
+  	  </div>
+    </div>
+    <div class="carousel-item">
       <img class="d-block w-100" src="images/11.jpg" alt="Petrolium">
       <div class="carousel-caption d-none d-md-block">
   	    <!-- <h3>تامین نیازهای صنعت پتروشیمی</h3> -->
