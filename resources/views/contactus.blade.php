@@ -3,14 +3,68 @@
 
 @section('head')
 <meta name="description" content="تماس با ما - 02133960092و09127194347 هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل در کشور">
+<style>
+	p{
+		font-size: 0.9rem;
+		margin-bottom: 0 !important;
+	}
+</style>
 @endsection
 
 
 @section('container')
 
-<div class="alert alert-primary text-center" style="margin-top: 15px;">
+{{-- <div class="alert alert-primary text-center" style="margin-top: 15px;">
 	برقرای ارتباط از طریق <a href="https://telegram.me/traycablebot" class="alert-link">تلگرام<i class="fa fa-telegram" aria-hidden="true"></i></a>
+</div> --}}
+
+
+<div class="row mt-5">
+	<div class="col-12 col-sm-6 mb-3">
+		<div class="row">
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" class="rounded-circle img-fluid" src="images/ceo.png" alt=""></div>
+			<div class="col-6 col-sm-9 align-self-center">
+				<p>مهندس علی قربانی</p>
+				<p>سمت: مدیر عامل</p>
+				<p>همراه: {{persianumber("09123102458")}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 mb-3">
+		<div class="row">
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.png" alt=""></div>
+			<div class="col-6 col-sm-9 align-self-center">
+				<p>مهندس سارا دانیال</p>
+				<p>سمت: مدیر فروش</p>
+				<p>همراه: ----</p>
+			</div>
+		</div>
+	</div>
 </div>
+<div class="row">
+	<div class="col-12 col-sm-6 mb-3">
+		<div class="row">
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/rd.jpg" alt=""></div>
+			<div class="col-6 col-sm-9 align-self-center">
+				<p>مهندس محمد قربانی</p>
+				<p>سمت: مدیر تحقیق و توسعه <small>R&D</small></p>
+				<p>همراه: {{persianumber("09127194347")}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 col-sm-6 mb-3">
+		<div class="row">
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/empp.png" alt=""></div>
+			<div class="col-6 col-sm-9 align-self-center">
+				<p>مهندس شیما غلامی</p>
+				<p>سمت: مدیر تولید</p>
+				<p>همراه: ----</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <div class="row mb-5" style="margin-top: 15px;">
 	<div class="col-md-6">
 		<span style="color: #2ecc71;">دفتر فروش:</span>
@@ -22,8 +76,10 @@
 		<span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i>  همراه: {{persianumber("09123102458")}}</span>
 		<br>
 		<br>
+		<div class="text-center">
 			{{--  <div id='gmap_canvas' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>  --}}
 			<iframe src="https://www.m-gh.info/daftarMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
+		</div>
 	</div>
 	<div class="col-md-6 mt-3 mt-md-0">
 		<span style="color: #2ecc71;">کارگاه تولیدی:</span>

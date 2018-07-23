@@ -52,11 +52,15 @@
 		</tr>
 		<tr>
 			<td>پانچ <small>(سوراخ)</small></td>
-			<td>CNC</td>
+			<td><strong class="text-danger">CNC</strong></td>
+		</tr>
+		<tr>
+			<td>برش</td>
+			<td><strong class="text-danger">CNC</strong></td>
 		</tr>
 		<tr>
 			<td>فرمت پانچ <small>(نحوه قرارگیری سوراخ ها)</small></td>
-			<td>موازی یا متقاطع</td>
+			<td>موازی یا متقاطع <small>(قابل سفارشی سازی)</small></td>
 		</tr>
 		<tr>
 			<td>طول سینی <small>(شاخه)</small></td>
