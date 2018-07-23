@@ -30,12 +30,12 @@
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">لوله فولادی و فلکسی</span></p>
       </div>
     </div>
-    {{-- <div class="carousel-item text-center">
-      <img class=" mx-auto" src="images/5.jpg" alt="Pipe">
+    <div class="carousel-item text-center">
+      <img class=" mx-auto" src="images/ladder2.jpg" alt="Pipe">
       <div class="carousel-caption d-md-block">
-        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">سینی اسنیک با قابلیت نصب آسان برای نظم دهی به کابل ها با حساسیت کمتر</span></p>
+        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">نردبان کابل <span style="color:#e67e22;">{{persianumber("3")}} متری</span></span></p>
       </div>
-    </div> --}}
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -17,7 +17,7 @@
 
     <div class="collapse navbar-collapse " style="direction: rtl;" id="navbarSupportedContent">
     <div class="navbar-nav mr-4">
-          <a class="nav-item nav-link" href="/">کبیر<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="/">هرمز<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="بلاگ">وبلاگ</a>
           <div class="dropdown">
             <a class="nav-item nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">محصولات</a>
