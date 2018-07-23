@@ -22,7 +22,8 @@
 		<span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i>  همراه: {{persianumber("09123102458")}}</span>
 		<br>
 		<br>
-			<div id='gmap_canvas' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>
+			{{--  <div id='gmap_canvas' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>  --}}
+			<iframe src="https://www.m-gh.info/daftarMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
 	</div>
 	<div class="col-md-6 mt-3 mt-md-0">
 		<span style="color: #2ecc71;">کارگاه تولیدی:</span>
@@ -35,14 +36,15 @@
 		<br>
 		<br>
 		<div class="text-center">
-			<div id='gmap_canvas2' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>
+			{{--  <div id='gmap_canvas2' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>  --}}
+			<iframe src="https://www.m-gh.info/kargahMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
 		</div>
 	</div>
 </div>
 
-<!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
-<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB0zl8YQ4p1y6Ufh6VXSSSqgPN0cZaGLC8"></script>
-
+{{--  <!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB0zl8YQ4p1y6Ufh6VXSSSqgPN0cZaGLC8"></script>  --}}
+{{--  
 <script type='text/javascript'>
 function init_map()
 {
@@ -72,6 +74,6 @@ function init_map2()
 }
 google.maps.event.addDomListener(window, 'load', init_map2);
 
-</script>
+</script>  --}}
 
 @endsection
