@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color:black;">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -6,41 +6,36 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
-  <div class="carousel-item active">
-      <img class="d-block w-100" src="images/600.JPG" alt="Trumph 600">
-      <div class="carousel-caption d-none d-md-block">
-  	    <!-- <h3>تامین نیازهای صنعت پتروشیمی</h3> -->
-  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">خدمات پانچ و لیزر سی ان سی</span></p>
+    <div class="carousel-item text-center active ">
+      <img class="" src="images/cnc1.jpg" alt="Trumph 600">
+      <div class="carousel-caption d-md-block">
+  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">خدمات پانچ و <span style="color:#e74c3c">لیزر</span> سی ان سی</span></p>
   	  </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/11.jpg" alt="Petrolium">
-      <div class="carousel-caption d-none d-md-block">
-  	    <!-- <h3>تامین نیازهای صنعت پتروشیمی</h3> -->
-  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">شکوفایی صنعت پتروشیمی، شوفایی کشور</span></p>
+    <div class="carousel-item text-center">
+      <img class=""  src="images/cnc2.jpg" alt="">
+      <div class="carousel-caption d-md-block">
+  	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">cnc پانچ و <span style="color:#e67e22;">برش </span></span></p>
   	  </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/12.jpg" alt="Mesh">
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
+    {{-- <div class="carousel-item text-center">
+      <img class=""  src="images/12.jpg" alt="Mesh">
+      <div class="carousel-caption d-md-block">
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">مش کابل مناسب برای دیتاسنترها</span></p>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/13.jpg" alt="Pipe">
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
-        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">کابل کشی منظم با استفاده از لوله فولادی، مناسب برای مراکز اداری و سازمان ها</span></p>
+    </div> --}}
+    <div class="carousel-item text-center">
+      <img class="" src="images/13.jpg" alt="Pipe">
+      <div class="carousel-caption d-md-block">
+        <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">لوله فولادی و فلکسی</span></p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="images/5.jpg" alt="Pipe">
-      <div class="carousel-caption d-none d-md-block">
-        <!-- <h3><span style="background-color: black ">م کابل</span></h3> -->
+    {{-- <div class="carousel-item text-center">
+      <img class=" mx-auto" src="images/5.jpg" alt="Pipe">
+      <div class="carousel-caption d-md-block">
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">سینی اسنیک با قابلیت نصب آسان برای نظم دهی به کابل ها با حساسیت کمتر</span></p>
       </div>
-    </div>
+    </div> --}}
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
