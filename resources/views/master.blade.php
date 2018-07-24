@@ -38,7 +38,7 @@
 
     </div>
 
-    <a href="tel:00989123102458"><img class="float fixed-bottom ml-2 mb-2 d-sm-none" src="images/call.png" alt="" style="height:70px !important;width:70px;"></a>
+    <a href="tel:00989123102458"><img class="float fixed-bottom ml-3 mb-3 d-sm-none" src="images/call.png" alt="" style="height:70px !important;width:70px;"></a>
 
     @include('footer')
 
