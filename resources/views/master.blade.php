@@ -38,6 +38,8 @@
 
     </div>
 
+    <a href="tel:00989123102458"><img class="float fixed-bottom ml-2 mb-2 d-sm-none" src="images/call.png" alt="" style="height:70px !important;width:70px;"></a>
+
     @include('footer')
 
     <script src="js/jquery-3.2.1.min.js"></script>
