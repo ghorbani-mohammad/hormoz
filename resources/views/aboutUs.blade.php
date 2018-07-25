@@ -51,9 +51,9 @@
 	</div>
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.png" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.jpg" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس سارا دانیال</p>
+				<p>مهندس لاله قائدی</p>
 				<p>سمت: مدیر فروش</p>
 			</div>
 		</div>
@@ -71,9 +71,9 @@
 	</div>
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/empp.png" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.png" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس شیما غلامی</p>
+				<p>مهندس سارا دانیال</p>
 				<p>سمت: مدیر تولید</p>
 			</div>
 		</div>

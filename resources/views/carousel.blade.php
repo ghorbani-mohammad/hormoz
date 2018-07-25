@@ -7,13 +7,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item text-center active ">
-      <img class="" src="images/cnc1.jpg" alt="Trumph 600">
+      <img class="" src="images/cnc1Optimized.jpg" alt="Trumph 600">
       <div class="carousel-caption d-md-block">
   	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">خدمات پانچ و <span style="color:#e74c3c">لیزر</span> سی ان سی</span></p>
   	  </div>
     </div>
     <div class="carousel-item text-center">
-      <img class=""  src="images/cnc2.jpg" alt="">
+      <img class=""  src="images/cnc2Optimized.jpg" alt="">
       <div class="carousel-caption d-md-block">
   	    <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">cnc پانچ و <span style="color:#e67e22;">برش </span></span></p>
   	  </div>
@@ -25,13 +25,13 @@
       </div>
     </div> --}}
     <div class="carousel-item text-center">
-      <img class="" src="images/13.jpg" alt="Pipe">
+      <img class="" src="images/pipeOptimized.jpg" alt="Pipe">
       <div class="carousel-caption d-md-block">
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">لوله فولادی و فلکسی</span></p>
       </div>
     </div>
     <div class="carousel-item text-center">
-      <img class=" mx-auto" src="images/ladder2.jpg" alt="Pipe">
+      <img class=" mx-auto" src="images/ladderOptimized.jpg" alt="Pipe">
       <div class="carousel-caption d-md-block">
         <p><span style="background-color: #5d5a5a;padding: 5px; border-radius: 4px;">نردبان کابل <span style="color:#e67e22;">{{persianumber("3")}} متری</span></span></p>
       </div>

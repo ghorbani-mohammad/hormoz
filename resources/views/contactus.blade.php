@@ -3,6 +3,7 @@
 
 @section('head')
 <meta name="description" content="تماس با ما - 02133960092و09127194347 هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل در کشور">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <style>
 	p{
 		font-size: 0.9rem;
@@ -17,53 +18,18 @@
 {{-- <div class="alert alert-primary text-center" style="margin-top: 15px;">
 	برقرای ارتباط از طریق <a href="https://telegram.me/traycablebot" class="alert-link">تلگرام<i class="fa fa-telegram" aria-hidden="true"></i></a>
 </div> --}}
-
-
-<div class="row mt-5">
-	<div class="col-12 col-sm-6 mb-3">
-		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" class="rounded-circle img-fluid" src="images/ceo.png" alt=""></div>
-			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس علی قربانی</p>
-				<p>سمت: مدیر عامل</p>
-				<p>همراه: {{persianumber("09123102458")}}</p>
-			</div>
-		</div>
+<div class="row my-5 alert alert-info">
+	<div class="col-12 col-sm-3 text-center">
+		<img class="img-fluid rounded-circle my-2 my-sm-0" src="images/sales.jpg" alt="" style="max-height: 120px;">
 	</div>
-	<div class="col-12 col-sm-6 mb-3">
-		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.png" alt=""></div>
-			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس سارا دانیال</p>
-				<p>سمت: مدیر فروش</p>
-				<p>همراه: ----</p>
-			</div>
+	<div class="col-12 col-sm-9 align-self-center">
+		<p style="font-size: 0.9rem;">سلام. لاله قادری هستم مدیر فروش گروه صنعتی هرمز. در صورت نیاز به هرگونه مشاوره در مورد محصولات لطفا با من تماس بگیرید.</p>
+		<div class="text-center" dir="ltr">
+			<p><i class="fa fa-mobile fa-2x" aria-hidden="true" style="padding-right:5px;"></i>{{persianumber("09358811546")}} :همراه</p>
+			<p><i class="fa fa-telegram fa-2x"></i>تلگرام: <a style="color:#0c5460;" href="https://telegram.me/Ghaedi_kabirsini">@Ghaedi_kabirsini</a> </p>
 		</div>
 	</div>
 </div>
-<div class="row">
-	<div class="col-12 col-sm-6 mb-3">
-		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/rd.jpg" alt=""></div>
-			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس محمد قربانی</p>
-				<p>سمت: مدیر تحقیق و توسعه <small>R&D</small></p>
-				<p>همراه: {{persianumber("09127194347")}}</p>
-			</div>
-		</div>
-	</div>
-	<div class="col-12 col-sm-6 mb-3">
-		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/empp.png" alt=""></div>
-			<div class="col-6 col-sm-9 align-self-center">
-				<p>مهندس شیما غلامی</p>
-				<p>سمت: مدیر تولید</p>
-				<p>همراه: ----</p>
-			</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="row mb-5" style="margin-top: 15px;">
 	<div class="col-md-6">

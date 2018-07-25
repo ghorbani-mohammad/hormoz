@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     @yield('head')
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    {{--  <link rel="stylesheet" href="css/font-awesome.min.css">  --}}
     <style type="text/css">
       @font-face {
           font-family: iransans;
@@ -38,13 +38,16 @@
 
     </div>
 
-    <a href="tel:00989123102458"><img class="float fixed-bottom ml-3 mb-3 d-sm-none" src="images/call.png" alt="" style="height:70px !important;width:70px;"></a>
+    <a href="tel:09358811546"><img class="float fixed-bottom ml-3 mb-3 d-sm-none" src="images/call.png" alt="" style="height:70px !important;width:70px;"></a>
 
     @include('footer')
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+
+    </style>
 
   </body>
 </html>

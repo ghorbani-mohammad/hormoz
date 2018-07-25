@@ -1,7 +1,7 @@
 @extends('master')
 
-@section('container-blog')
-<div class="card mb-5">
+@section('container')
+<div class="card my-5 ">
 	<img src="images/2.jpg" class="card-img-top" alt="سینی کابل">
 	<div class="card-body" style="color: #5f6d80;">
 		<h4 style="color: #f35955;">سینی کابل چیست؟</h4>

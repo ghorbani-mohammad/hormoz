@@ -3,13 +3,22 @@
 
 @section('head')
 <meta name="description" content="سینی کابل محصولی است که از آن برای محافظت از کابل های انتقال جریان و همچنین نظم دهی به آن ها استفاده می شود">
+<style>
+	video {
+		width: 100%;
+		height: auto;
+	}
+</style>
 @endsection
 
 @section('container')
+
+
+
 <div class="row" style="margin-top: 15px;">
 	<div class="col-sm-12 col-md-9 order-2 mt-3 order-md-1 mt-md-0">
-		<h4>سینی کابل</h4>
-		<p style="font-size: .9rem;">
+		<h1 style="color:blue;">سینی کابل</h1>
+		<p class="mt-3" style="font-size: .9rem;">
 			از سینی کابل برای نظم دهی به کابل ها استفاده می شود. در تصویر مقابل یک سینی کابل را مشاهده می کنید که در آن تعدادی کابل قرار گرفته است. سینی کابل علاوه بر نظم دهی برای محافظت از کابل ها نیز استفاده می شود. طبق استانداردهای جدید ساختمانی استفاده از سینی کابل برای کابل ها الزامی است. 
 		</p>
 	</div>
@@ -17,13 +26,26 @@
 		<img class="img-fluid" src="images/4.jpg">
 	</div>
 </div>
-<hr>
+<hr class="my-5">
+<h2 class="display-5" style="color: blue;">پانچ CNC</h2>
+<div class="text-center mt-5">
+	<p class="lead">گروه صعنعتی هرمز مفتخر است اعلام بدارد تمامی محصولات تولید شده توسط این گروه به صورت پانچ CNC می باشد.</p>
+	<p>در زیر می توانید چگونگی پانچ CNC توسط دستگاه TRUMPH 600 را مشاهده کنید</p>
+</div>
+<div class="text-center">
+	<video class="my-5" style="max-height:600px; max-width: 600px;" controls>
+		<source src="videos/سینی کابل.mp4" type="video/mp4">
+		{{--  <source src="movie.ogg" type="video/ogg">  --}}
+		Your browser does not support the video tag.
+	</video>
+</div>
+<hr class="mt-5">
 <div style="margin: 90px 0px;">
-	<p class="display-4 text-center" style="font-size: 2rem;">
+	<h2 class="display-4 text-center" style="font-size: 2rem; color: blue;">
 		انواع سینی کابل
-	</p>
+	</h2>
 
-	<table class="table table-sm table-bordered table-hover">
+	<table class="table table-sm table-bordered table-hover mt-5">
 		<tr>
 			<td>سینی کابل سرد (فابریک)</td>
 			<td>سینی کابل گرم (آبکاری شده)</td>
@@ -38,10 +60,10 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<p class="display-4 text-center" style="font-size: 2rem;">
+	<h2 class="display-4 text-center" style="font-size: 2rem; color: blue;">
 		مشخصات فنی سینی کابل
-	</p>
-	<table class="table table-bordered table-hover text-center">
+	</h2>
+	<table class="table table-bordered table-hover text-center mt-5">
 		<tr>
 			<td>ضخامت <small>(ورق)</small></td>
 			<td>{{persianumber("0.5 - 2")}}  <small>(میلیمتر)</small></td>
@@ -92,10 +114,10 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<p class="display-4 text-center" style="font-size: 2rem;">
+	<h2 class="display-4 text-center" style="font-size: 2rem;color: blue;">
 		متعلقات سینی کابل
-	</p>
-	<p>
+	</h2>
+	<p class="mt-5">
 		متعلقات سینی کابل به سه دسته ی اصلی <strong>اتصلات (رابط)</strong>، <strong>نگهدارنده (ساپورت)</strong> و <strong>تبدیلات</strong> تقسیم می شود. برخی از اقلام معمول این دو دسته به صورت زیر است:
 	</p>
 	<table class="table text-center table-hover table-bordered">
