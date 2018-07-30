@@ -23,7 +23,7 @@
 		</p>
 	</div>
 	<div class="col-sm-12 col-md-3 order-1 order-md-2 px-2">
-		<img class="img-fluid" src="images/4.jpg">
+		<img class="img-fluid" src="images/traycable2.webp">
 	</div>
 </div>
 <hr class="my-5">
@@ -33,15 +33,11 @@
 	<p>در زیر می توانید چگونگی پانچ CNC توسط دستگاه TRUMPH 600 را مشاهده کنید</p>
 </div>
 <div class="text-center">
-	<video class="my-5" style="max-height:600px; max-width: 600px;" controls>
-		<source src="videos/سینی کابل.mp4" type="video/mp4">
-		{{--  <source src="movie.ogg" type="video/ogg">  --}}
-		Your browser does not support the video tag.
-	</video>
+	<video class="lazy my-5" data-src="videos/سینی کابل.mp4|video/mp4" style="max-height:600px; max-width: 600px;" controls></video>
 </div>
 <hr class="mt-5">
 <div style="margin: 90px 0px;">
-	<h2 class="display-4 text-center" style="font-size: 2rem; color: blue;">
+	<h2 class="display-4 text-center" style="color: blue;">
 		انواع سینی کابل
 	</h2>
 
@@ -60,7 +56,7 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<h2 class="display-4 text-center" style="font-size: 2rem; color: blue;">
+	<h2 class="display-4 text-center" style="color: blue;">
 		مشخصات فنی سینی کابل
 	</h2>
 	<table class="table table-bordered table-hover text-center mt-5">
@@ -114,7 +110,7 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<h2 class="display-4 text-center" style="font-size: 2rem;color: blue;">
+	<h2 class="display-4 text-center" style="color: blue;">
 		متعلقات سینی کابل
 	</h2>
 	<p class="mt-5">

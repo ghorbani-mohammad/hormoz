@@ -45,9 +45,18 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <style>
+   
 
-    </style>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 
+    <script>
+        $(function() {
+          $('.lazy').lazy({threshold:100});
+        });
+        $(function() {
+          $('.lazy-delay').lazy({delay:5000});
+        });
+    </script>
   </body>
 </html>

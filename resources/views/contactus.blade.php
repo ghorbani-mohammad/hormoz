@@ -14,10 +14,6 @@
 
 
 @section('container')
-
-{{-- <div class="alert alert-primary text-center" style="margin-top: 15px;">
-	برقرای ارتباط از طریق <a href="https://telegram.me/traycablebot" class="alert-link">تلگرام<i class="fa fa-telegram" aria-hidden="true"></i></a>
-</div> --}}
 <div class="row my-5 alert alert-info">
 	<div class="col-12 col-sm-3 text-center">
 		<img class="img-fluid rounded-circle my-2 my-sm-0" src="images/sales.jpg" alt="" style="max-height: 120px;">
@@ -43,8 +39,7 @@
 		<br>
 		<br>
 		<div class="text-center">
-			{{--  <div id='gmap_canvas' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>  --}}
-			<iframe src="https://www.m-gh.info/daftarMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
+			<iframe class="lazy" data-src="https://www.m-gh.info/daftarMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
 		</div>
 	</div>
 	<div class="col-md-6 mt-3 mt-md-0">
@@ -58,44 +53,8 @@
 		<br>
 		<br>
 		<div class="text-center">
-			{{--  <div id='gmap_canvas2' class="text-center" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'></div>  --}}
-			<iframe src="https://www.m-gh.info/kargahMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
+			<iframe class="lazy" data-src="https://www.m-gh.info/kargahMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
 		</div>
 	</div>
 </div>
-
-{{--  <!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script> -->
-<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyB0zl8YQ4p1y6Ufh6VXSSSqgPN0cZaGLC8"></script>  --}}
-{{--  
-<script type='text/javascript'>
-function init_map()
-{
-	var myOptions = {zoom:16,center:new google.maps.LatLng(35.689720,51.424454),mapTypeId: google.maps.MapTypeId.ROADMAP};
-	map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.689600,51.424422)});
-	infowindow = new google.maps.InfoWindow({content:'<br><strong>Kabir Sale Department</strong>'});
-	google.maps.event.addListener(marker, 'click', function()
-	{
-		infowindow.open(map,marker);
-	});
-	infowindow.open(map,marker);
-}
-google.maps.event.addDomListener(window, 'load', init_map);
-
-function init_map2()
-{
-	var myOptions = {zoom:15,center:new google.maps.LatLng(35.611094, 51.400786),mapTypeId: google.maps.MapTypeId.ROADMAP};
-	map = new google.maps.Map(document.getElementById('gmap_canvas2'), myOptions);
-	marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(35.611094, 51.400786)});
-	infowindow = new google.maps.InfoWindow({content:'<br><strong>Kabir Production Department</strong>'});
-	google.maps.event.addListener(marker, 'click', function()
-	{
-		infowindow.open(map,marker);
-	});
-	infowindow.open(map,marker);
-}
-google.maps.event.addDomListener(window, 'load', init_map2);
-
-</script>  --}}
-
 @endsection

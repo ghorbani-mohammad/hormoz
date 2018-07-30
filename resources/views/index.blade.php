@@ -13,6 +13,10 @@
 		max-width: 100%;
 		height: auto;
 	}
+	{{--  .lazy{
+		max-width: 100%; 
+		height: auto; 
+	   }  --}}
 	@media (min-width: 576px) { 
 		.carousel-item{
 			height: 400px;
@@ -27,7 +31,6 @@
 
 
 @section('container-fluid-carousel')
-
 	@include('carousel')
 @endsection
 
@@ -51,7 +54,7 @@
 		<div class="display-4" style="font-size: 2.5rem;">	خدمات ما</div>
 		<div class="row mt-4">
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="card-img-top pt-4" src="images/traycable.jpg" style="height: 200px;border-radius: 3rem; ">
+				<img class="lazy card-img-top pt-4" data-src="images/traycable.webp" style="height: 200px;border-radius: 3rem; ">
 				<div class="card-body">
 					<h4 class="card-title">سینی کابل</h4>
 					<p class="card-text">از سینی کابل برای عبور کابل ها در فضاهای باز و محیط های بیرونی استفاده می شود</p>
@@ -59,7 +62,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="card-img-top pt-4" src="images/ladder.jpg" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/ladder_services.webp" style="height: 200px;border-radius: 3rem;">
  				<div class="card-body">
 					<h4 class="card-title">نردبان کابل</h4>
 					<p class="card-text">معمولا در فضای های بسته و محیط های داخلی از نردبان کابل استفاده می شود</p>
@@ -67,7 +70,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="card-img-top pt-4" src="images/pipe.jpg" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/pipe_services.webp" style="height: 200px;border-radius: 3rem;">
 		 		<div class="card-body">
 					<h4 class="card-title">لوله فولادی</h4>
 					<p class="card-text">از لوله های فولادی برای انتقال کابل های فوق العاده حساس استفاده می شود</p>
@@ -75,7 +78,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="card-img-top pt-4" src="images/pipe-flexi.jpg" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/pipe_flexi_services.webp" style="height: 200px;border-radius: 3rem;">
 				<div class="card-body">
 					<h4 class="card-title">لوله فلکسی</h4>
 					<p>لوله فلکسی ها به دلیل انعطاف پذیری برای توزیع کابل ها مناسب است</p>

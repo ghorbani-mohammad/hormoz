@@ -42,7 +42,7 @@
 <div class="row">
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" class="rounded-circle img-fluid" src="images/ceo.png" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" class="rounded-circle img-fluid lazy" data-src="images/ceo.png" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
 				<p>مهندس علی قربانی</p>
 				<p>سمت: مدیر عامل</p>
@@ -51,7 +51,7 @@
 	</div>
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.jpg" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid lazy" data-src="images/sales.jpg" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
 				<p>مهندس لاله قائدی</p>
 				<p>سمت: مدیر فروش</p>
@@ -62,7 +62,7 @@
 <div class="row">
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/rd.jpg" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid lazy" data-src="images/rd.jpg" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
 				<p>مهندس محمد قربانی</p>
 				<p>سمت: مدیر تحقیق و توسعه <small>R&D</small></p>
@@ -71,7 +71,7 @@
 	</div>
 	<div class="col-12 col-sm-6 mb-3">
 		<div class="row">
-			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid" src="images/sales.png" alt=""></div>
+			<div class="col-6 col-sm-3 text-center"><img style="max-height: 100px !important;" height="120px" class="rounded-circle img-fluid lazy" data-src="images/sales.png" alt=""></div>
 			<div class="col-6 col-sm-9 align-self-center">
 				<p>مهندس سارا دانیال</p>
 				<p>سمت: مدیر تولید</p>

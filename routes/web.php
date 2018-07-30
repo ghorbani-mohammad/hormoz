@@ -66,3 +66,8 @@ Route::get('imgs',function(){
 	//     echo (string)$file, "\n";
 	// }
 });
+Route::get('setfee/{fee}',function($fee){
+	$feeSheet=Fee::firstOrCreate(['id'=>1]);
+	$feeSheet->value=$fee;
+	$feeSheet->save();
+});

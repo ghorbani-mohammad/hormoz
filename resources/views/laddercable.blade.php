@@ -8,7 +8,7 @@
 @section('container')
 <div class="row" style="margin-top: 15px;">
 	<div class="col-sm-12 col-md-9 order-2 mt-3 order-md-1 mt-md-0">
-		<h4>نردبان کابل</h4>
+		<h2 class="my-3" style="color:blue;">نردبان کابل</h2>
 		<p>مزییتی که نردبان کابل نسبت به سینی کابل دارد این است که سامان دهی کابل ها در آن ها راحت تر و محکمتر است. به طور معمول در مسیر های عمودی از نردبان کابل استفاده می شود. البته انتخاب نردبان کابل یا سینی کابل وابسته به شرایط محیط است.</p>
 	</div>
 	<div class="col-sm-12 col-md-3 order-1 order-md-2">
@@ -17,9 +17,9 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<p class="display-4 text-center" style="font-size: 2rem;">
+	<h3 class="display-4 text-center my-5" style="color:blue;">
 		مشخصات فنی نردبان کابل
-	</p>
+	</h3>
 	<table class="table table-bordered table-hover text-center">
 		<tr>
 			<td>ضخامت <small>(ورق)</small></td>
@@ -30,8 +30,12 @@
 			<td>{{persianumber("5 - 90")}}  <small>(سانتی متر)</small></td>
 		</tr>
 		<tr>
-			<td>پانچ پله <small>(سوراخ)</small></td>
-			<td>CNC</td>
+			<td>پانچ <small>(سوراخ)</small></td>
+			<td class="text-danger"><strong>CNC</strong></td>
+		</tr>
+		<tr>
+			<td>برش</td>
+			<td class="text-danger"><strong>CNC</strong></td>
 		</tr>
 		<tr>
 			<td>طول نردبان <small>(شاخه)</small></td>
@@ -61,9 +65,9 @@
 </div>
 <hr>
 <div style="margin: 90px 0px;">
-	<p class="display-4 text-center" style="font-size: 2rem;">
+	<h3 class="display-4 text-center mb-5" style="color: blue;">
 		متعلقات نردبان کابل
-	</p>
+	</h3>
 	<p>
 		متعلقات نردبان کابل به سه دسته اصلی <strong style="color: #155724;">اتصلات (رابط)</strong>، <strong style="color: #155724;">نگهدارنده (ساپورت)</strong> و <strong style="color: #155724;">تبدیلات</strong> تقسیم می شود. برخی از اقلام معمول این دو دسته به صورت زیر است:
 	</p>
