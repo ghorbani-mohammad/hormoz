@@ -29,7 +29,7 @@ Route::get('/', function(){
 Route::post('fee/bot.php','FeeController@control');
 
 Route::get('sitemap',function(){
-	SitemapGenerator::create('https://hormozgroup.ir')->writeToFile('sitemmap.xml');
+	SitemapGenerator::create('https://hormozgroup.ir')->writeToFile('/var/www/hormozgroup.ir/public/sitemap.xml');
 });
 
 
