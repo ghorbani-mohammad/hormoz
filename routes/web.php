@@ -4,6 +4,7 @@ use App\Fee;
 use \Morilog\Jalali\jDate;
 use \Morilog\Jalali\jDateTime;
 use Carbon\Carbon;
+use Spatie\Sitemap\SitemapGenerator;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,10 @@ Route::get('/', function(){
 
 
 Route::post('fee/bot.php','FeeController@control');
+
+Route::get('sitemap',function(){
+	SitemapGenerator::create('https://hormozgroup.ir')->writeToFile('sitemmap.xml');
+});
 
 
 
@@ -54,7 +59,7 @@ Route::get('سینی-کابل',function(){
 Route::get('نردبان-کابل',function(){
 	return view('laddercable');
 });
-Route::get('بلاگ',function(){
+Route::get('وبلاگ',function(){
 	return view('blog');
 });
 Route::get('imgs',function(){
