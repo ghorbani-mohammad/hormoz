@@ -16,6 +16,12 @@
       body{
         font-family: iransans;
       }
+      html,body{
+        height: 100%;
+      }
+      .container{
+        min-height: 70%;
+      }
     </style>
   </head>
 

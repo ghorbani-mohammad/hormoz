@@ -13,10 +13,9 @@
 		max-width: 100%;
 		height: auto;
 	}
-	{{--  .lazy{
-		max-width: 100%; 
-		height: auto; 
-	   }  --}}
+	.container{
+		min-height: 0% !important;
+	}
 	@media (min-width: 576px) { 
 		.carousel-item{
 			height: 400px;
