@@ -62,17 +62,16 @@ Route::get('نردبان-کابل',function(){
 Route::get('وبلاگ',function(){
 	return view('blog');
 });
-Route::get('imgs',function(){
-
-	$files = File::allFiles("images");
-	dd($files);
-	// foreach ($files as $file)
-	// {
-	//     echo (string)$file, "\n";
-	// }
-});
 Route::get('setfee/{fee}',function($fee){
 	$feeSheet=Fee::firstOrCreate(['id'=>1]);
 	$feeSheet->value=$fee;
 	$feeSheet->save();
 });
+
+
+Route::auth();
+
+Route::resource('posts', 'PostController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
