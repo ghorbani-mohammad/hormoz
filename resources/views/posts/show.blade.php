@@ -1,6 +1,7 @@
 @extends('posts.master')
 
 @section('head')
+<meta name="description" content="{{$post->description}}">
 <style>
     ::placeholder { /* Most modern browsers support this now. */
         color:    #74b9ff !important;
@@ -45,8 +46,8 @@
     font-size: 3.5rem !important;
     }
 </style>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-{{--  <link rel="stylesheet" href="css/font-awesome.min.css">  --}}
+{{--  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">  --}}
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 @endsection
 
 @section('container')
