@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Input;
+use Hekmatinasser\Verta\Verta;
 
 class PostController extends Controller
 {
@@ -110,6 +111,8 @@ class PostController extends Controller
     public function show($post)
     {
         $post=Post::where('link',$post)->first();
+        $v=new Verta($post->created_at);
+		$post->created_at2 = $v->format('%d %B %Y');
         if($post->status=='preview')
         {
             if (Auth::check() && Auth::user()->role=='admin') 

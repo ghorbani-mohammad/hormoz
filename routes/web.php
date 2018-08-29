@@ -1,10 +1,12 @@
 <?php
 
 use App\Fee;
+use App\Post;
 use \Morilog\Jalali\jDate;
 use \Morilog\Jalali\jDateTime;
 use Carbon\Carbon;
 use Spatie\Sitemap\SitemapGenerator;
+use Hekmatinasser\Verta\Verta;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,8 +61,23 @@ Route::get('سینی-کابل',function(){
 Route::get('نردبان-کابل',function(){
 	return view('laddercable');
 });
-Route::get('وبلاگ',function(){
-	return view('blog');
+Route::get('وبلاگ',function()
+{
+	// $v = new Verta();
+	// return $v->format('%B %d، %Y');
+
+	if (Auth::check() && Auth::user()->role=='admin')
+		$posts=Post::where('type','blog')->latest()->get();
+	else
+		$posts=Post::where('type','blog')->where('status','publish')->latest()->get();      
+	foreach ($posts as $post) 
+	{
+		// return $post->created_at->format('Y-m-d');
+		$v=new Verta($post->created_at);
+		$post->created_at2 = $v->format('%d %B %Y');
+	}
+	
+	return view('posts.index',compact('posts'));
 });
 Route::get('setfee/{fee}',function($fee){
 	$feeSheet=Fee::firstOrCreate(['id'=>1]);
@@ -72,6 +89,3 @@ Route::get('setfee/{fee}',function($fee){
 Route::auth();
 
 Route::resource('posts', 'PostController');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

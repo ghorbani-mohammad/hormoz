@@ -7,11 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     @yield('head')
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    {{--  <link rel="stylesheet" href="css/font-awesome.min.css">  --}}
     <style type="text/css">
-      @font-face {
+      @font-face{
           font-family: iransans;
-          src: url(fonts/iransans.woff2);
+          font-style: normal;
+          font-weight: normal;
+          font-display: swap;
+          src: url(/fonts/IRANSans-web.woff2);
+      }
+      @font-face{
+          font-family: iransans;
+          font-style: normal;
+          font-weight: lighter;
+          font-display: swap;
+          src: url(/fonts/IRANSans-Light-web.woff2);
+      }
+      @font-face{
+          font-family: iransans;
+          font-style: normal;
+          font-weight: bold;
+          font-display: swap;
+          src: url(/fonts/IRANSans-Bold-web.woff2);
       }
       body{
         font-family: iransans;
@@ -20,7 +36,7 @@
         height: 100%;
       }
       .container{
-        min-height: 70%;
+        min-height: 85%;
       }
     </style>
   </head>

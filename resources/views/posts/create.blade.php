@@ -13,15 +13,15 @@
         @include('posts.errors')
         <div class="form-group">
             <label for="title">Title:</label>
-            <input type="text" class="form-control" id="title" name="title" required>
+            <input dir="rtl" type="text" class="form-control" id="title" name="title" required>
         </div>
         <div class="form-group">
             <label for="link">Link:</label>
-            <input type="text" class="form-control" id="link" name="link" required>
+            <input dir="rtl" type="text" class="form-control" id="link" name="link" required>
         </div>
         <div class="form-group">
             <label for="description">Description: <span style="font-size: 1rem;" class="lead text-success">(Max Length is 100)</span></label>
-            <input maxlength="100" type="text" class="form-control" id="description" name="description" required>
+            <input dir="rtl" maxlength="100" type="text" class="form-control" id="description" name="description" required>
         </div>
         <div class="form-group">
             <label for="type">Type:</label>
@@ -32,7 +32,9 @@
         </div>
         <div class="form-group">
             <label for="body">Body:</label>
-            <textarea id="body" name="body" class="summernote form-control" required></textarea>
+            <div dir="rtl">
+                <textarea id="body" name="body" class="summernote form-control" required></textarea>
+            </div>
         </div>
         <div class="form-group">
             <label for="status">Status:</label>
@@ -51,6 +53,7 @@
 @section('footer')
 
 <script src="/summernote/summernote-bs4.js"></script>    
+{{--  <script src="/summernote/summernote-ext-rtl.js"></script>  --}}
  
 <script>
         $(document).ready(function() {
