@@ -36,7 +36,7 @@
 @section('content')
 	<a href="tel:5555555555">Call Us</a>
 	<div class="container text-center my-5 bg-danger" style="color:white; border-radius:1em;">
-		گروه هرمز مفتخر است اعلام بدارد که با تهیه دستگاه Trumpf 600، توانایی انجام کلیه خدمات<strong class="lead text-warning"> لیزر</strong>،<strong class="lead text-warning"> پانچ</strong> و<strong class="lead text-warning"> برش </strong>cnc را دارا می باشد
+		گروه هرمز مفتخر است اعلام بدارد که با تهیه دستگاه Trumpf 600، توانایی انجام کلیه خدمات<strong class="lead text-warning"> لیزر</strong>،<strong class="lead text-warning"> پانچ</strong> و<strong class="lead text-warning"> برش </strong>CNC را دارا می باشد
 	</div>
 	<div class="jumbotron mb-0" style="border-radius: 0px;">
 		<div class="row align-items-center p-0">

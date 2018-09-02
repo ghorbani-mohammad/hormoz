@@ -35,8 +35,8 @@
 		<br>
 		<span style="font-size: 0.9rem;"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> تلفن: ۳۳۹۶۰۰۹۲ - ۳۳۹۵۰۷۷۰ - ۳۳۹۸۶۷۰۲</span>
 		<br>
-		<span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i>  همراه: {{persianumber("09123102458")}}</span>
-		<br>
+		{{--  <span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i>  همراه: {{persianumber("09123102458")}}</span>  --}}
+		{{--  <br>  --}}
 		<br>
 		<div class="text-center">
 			<iframe class="lazy" data-src="https://www.m-gh.info/daftarMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
@@ -49,8 +49,8 @@
 		<br>
 		<span style="font-size: 0.9rem;"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> تلفن: {{persianumber("55440335")}}</span>
 		<br>
-		<span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i> همراه: {{persianumber("09181626210")}} - {{persianumber("09127194347")}}</span>
-		<br>
+		{{--  <span style="font-size: 0.9rem;"><i class="fa fa-mobile" aria-hidden="true" style="padding-right:5px;"></i> همراه: {{persianumber("09181626210")}} - {{persianumber("09127194347")}}</span>  --}}
+		{{--  <br>  --}}
 		<br>
 		<div class="text-center">
 			<iframe class="lazy" data-src="https://www.m-gh.info/kargahMap" frameborder="0" style='height:300px;width:320px;margin-left:auto; margin-right:auto;'scrolling="no"></iframe>
