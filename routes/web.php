@@ -49,6 +49,16 @@ Route::get('لیست-قیمت',function(){
 	$lastUpdatedDate = jDateTime::convertNumbers($lastUpdatedDate);
 	return view('feeList',compact('lastUpdatedDate','value'));
 });
+Route::get('لیست-قیمت-سینی-کابل',function(){
+	$feeSheet=Fee::firstOrCreate(['id'=>1]);
+	$value=$feeSheet->value;
+	$lastUpdated=$feeSheet->updated_at;
+	$lastUpdated = new Carbon($lastUpdated);
+	$lastUpdatedDate=$lastUpdated->toDateString();
+	$lastUpdatedDate = jDateTime::strftime('Y/m/d', $lastUpdatedDate);
+	$lastUpdatedDate = jDateTime::convertNumbers($lastUpdatedDate);
+	return view('feeList',compact('lastUpdatedDate','value'));
+});
 Route::get('تماس-با-ما',function(){
 	return view('contactus');
 });

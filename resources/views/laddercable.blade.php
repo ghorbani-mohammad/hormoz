@@ -1,6 +1,10 @@
 @extends('master')
 
 
+@section('title')
+نردبان کابل	
+@endsection
+
 @section('head')
 <meta name="description" content="نردبان کابل معمولا در محیط های بسته استفاده می شود">
 @endsection

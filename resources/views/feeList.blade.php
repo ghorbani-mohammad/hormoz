@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+لیست قیمت سینی کابل	
+@endsection
+
 
 @section('head')
 	<meta name="description" content="در این صحفه شما می توانید لیست قیمت اقلام مهم مرتبط با سینی کابل را به دست آورید">
@@ -31,10 +35,10 @@
 		<a class="tab nav-link active" id="traycable-tab" data-toggle="tab" href="#traycable" role="tab" aria-controls="traycable" aria-selected="true">سینی کابل</a>
 	</li>
 	<li class="nav-item">
-		<a class="tab nav-link" id="ladder-tab" data-toggle="tab" href="#ladder" role="tab" aria-controls="ladder" aria-selected="false">نردبان کابل</a>
+		<a class="tab nav-link" id="accessories-tab" data-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">متعلقات</a>
 	</li>
 	<li class="nav-item">
-		<a class="tab nav-link" id="accessories-tab" data-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">متعلقات</a>
+		<a class="tab nav-link" id="ladder-tab" data-toggle="tab" href="#ladder" role="tab" aria-controls="ladder" aria-selected="false">نردبان کابل</a>
 	</li>
 	<li class="nav-item">
 		<a class="tab nav-link" id="pipe-tab" data-toggle="tab" href="#pipe" role="tab" aria-controls="pipe" aria-selected="false">لوله فولادی</a>

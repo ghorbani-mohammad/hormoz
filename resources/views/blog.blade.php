@@ -1,5 +1,9 @@
 @extends('master')
 
+@section('title')
+وبلاگ
+@endsection
+
 @section('container')
 <div class="card my-5 ">
 	<img src="images/2.jpg" class="card-img-top" alt="سینی کابل">

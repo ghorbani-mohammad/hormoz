@@ -1,6 +1,10 @@
 @extends('master')
 
 
+@section('title')
+درباره گروه هرمز
+@endsection
+
 @section('head')
 <meta name="description" content="درباره ما - هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل">
 <style>

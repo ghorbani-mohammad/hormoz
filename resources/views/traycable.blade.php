@@ -1,5 +1,8 @@
 @extends('master')
 
+@section('title')
+سینی کابل	
+@endsection
 
 @section('head')
 <meta name="description" content="سینی کابل محصولی است که از آن برای محافظت از کابل های انتقال جریان و همچنین نظم دهی به آن ها استفاده می شود">
@@ -27,13 +30,15 @@
 	</div>
 </div>
 <hr class="my-5">
-<h2 class="display-5" style="color: blue;">پانچ CNC</h2>
-<div class="text-center mt-5">
-	<p class="lead">گروه صعنعتی هرمز مفتخر است اعلام بدارد تمامی محصولات تولید شده توسط این گروه به صورت پانچ CNC می باشد.</p>
-	<p>در زیر می توانید چگونگی پانچ CNC توسط دستگاه TRUMPH 600 را مشاهده کنید</p>
-</div>
-<div class="text-center">
-	<video class="lazy my-5" data-src="videos/سینی کابل.mp4|video/mp4" style="max-height:600px; max-width: 600px;" controls></video>
+<div id="پانچ_سی_ان_سی">
+	<h2 class="display-5" style="color: blue;">پانچ CNC</h2>
+	<div class="text-center mt-5">
+		<p class="lead">گروه صعنعتی هرمز مفتخر است اعلام بدارد تمامی محصولات تولید شده توسط این گروه به صورت پانچ CNC می باشد.</p>
+		<p>در زیر می توانید چگونگی پانچ CNC توسط دستگاه TRUMPH 600 را مشاهده کنید</p>
+	</div>
+	<div class="text-center">
+		<video class="lazy my-5" data-src="videos/سینی کابل.mp4|video/mp4" style="max-height:600px; max-width: 600px;" controls></video>
+	</div>
 </div>
 <hr class="mt-5">
 <div style="margin: 90px 0px;">
@@ -55,7 +60,7 @@
 	</div>
 </div>
 <hr>
-<div style="margin: 90px 0px;">
+<div id="مشخصات_فنی_سینی_کابل"style="margin: 90px 0px;">
 	<h2 class="display-4 text-center" style="color: blue;">
 		مشخصات فنی سینی کابل
 	</h2>

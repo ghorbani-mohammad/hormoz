@@ -1,5 +1,9 @@
-	@extends('master')
+@extends('master')
 
+
+@section('title')
+تماس با گروه هرمز
+@endsection
 
 @section('head')
 <meta name="description" content="تماس با ما - 02133960092و09127194347 هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل در کشور">

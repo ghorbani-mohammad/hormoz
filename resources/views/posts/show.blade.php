@@ -1,5 +1,10 @@
 @extends('posts.master')
 
+@section('title')
+{{$post->title}}
+@endsection
+
+
 @section('head')
 <meta name="description" content="{{$post->description}}">
 <style>
