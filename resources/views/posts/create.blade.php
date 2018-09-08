@@ -1,5 +1,8 @@
 @extends('posts.master')
 
+@section('title')
+نگارش مطلب جدید
+@endsection
 
 @section('head')
 <link href="/summernote/summernote-bs4.css" rel="stylesheet">

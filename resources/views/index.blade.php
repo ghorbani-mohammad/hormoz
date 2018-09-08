@@ -8,6 +8,7 @@
 
 @section('head')
 <meta name="description" content="هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل و تمامی متعلقات آن می باشد. این گروه محصولات خود را با استفاده از دستگاه CNC ترومپ 600 تولید می کند">
+<link rel="canonical" href="http://hormozgroup.ir">
 <style>
 	.carousel-item{
 		height: 300px;
@@ -56,7 +57,7 @@
 		<div class="display-4" style="font-size: 2.5rem;">	خدمات ما</div>
 		<div class="row mt-4">
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="lazy card-img-top pt-4" data-src="images/traycable.webp" style="height: 200px;border-radius: 3rem; ">
+				<img class="lazy card-img-top pt-4" data-src="images/traycable.webp" style="height: 200px;border-radius: 3rem;" alt="سینی کابل">
 				<div class="card-body">
 					<h4 class="card-title">سینی کابل</h4>
 					<p class="card-text">از سینی کابل برای عبور کابل ها در فضاهای باز و محیط های بیرونی استفاده می شود</p>
@@ -64,7 +65,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="lazy card-img-top pt-4" data-src="images/ladder_services.webp" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/ladder_services.webp" style="height: 200px;border-radius: 3rem;" alt="نردبان کابل">
  				<div class="card-body">
 					<h4 class="card-title">نردبان کابل</h4>
 					<p class="card-text">معمولا در فضای های بسته و محیط های داخلی از نردبان کابل استفاده می شود</p>
@@ -72,7 +73,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="lazy card-img-top pt-4" data-src="images/pipe_services.webp" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/pipe_services.webp" style="height: 200px;border-radius: 3rem;" alt="لوله فولادی">
 		 		<div class="card-body">
 					<h4 class="card-title">لوله فولادی</h4>
 					<p class="card-text">از لوله های فولادی برای انتقال کابل های فوق العاده حساس استفاده می شود</p>
@@ -80,7 +81,7 @@
 				</div>
 			</div>
 			<div class="card col-sm-6 col-md-3" style="background-color: #e9ecef;border: none;">
-				<img class="lazy card-img-top pt-4" data-src="images/pipe_flexi_services.webp" style="height: 200px;border-radius: 3rem;">
+				<img class="lazy card-img-top pt-4" data-src="images/pipe_flexi_services.webp" style="height: 200px;border-radius: 3rem;" alt="لوله فلکسی">
 				<div class="card-body">
 					<h4 class="card-title">لوله فلکسی</h4>
 					<p>لوله فلکسی ها به دلیل انعطاف پذیری برای توزیع کابل ها مناسب است</p>

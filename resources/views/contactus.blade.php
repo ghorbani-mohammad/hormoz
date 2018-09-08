@@ -6,7 +6,7 @@
 @endsection
 
 @section('head')
-<meta name="description" content="تماس با ما - 02133960092و09127194347 هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل در کشور">
+<meta name="description" content="تماس با ما - 02133960092و09123102458 هرمز گروپ تولید کننده انواع سینی کابل و نردبان کابل در کشور">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <style>
 	p{
