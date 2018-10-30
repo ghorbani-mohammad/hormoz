@@ -59,7 +59,7 @@
       @yield('content')
     </div>
 
-    <a href="tel:09358811546"><img class="float fixed-bottom ml-3 mb-3 d-sm-none" src="images/call.png" alt="تماس با ما" style="height:70px !important;width:70px;"></a>
+    <a href="tel:09358811546"><img class="float fixed-bottom ml-3 mb-3 d-sm-none" src="images/call2.webp" alt="تماس با ما" style="height:70px !important;width:70px;"></a>
 
     @include('footer')
 
